@@ -575,7 +575,7 @@ main {
 #observacao p {
     color: #8c514dc2;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
     width: 340px;
 }
 /* ---------- estilo ---------- */
@@ -658,7 +658,7 @@ footer {
     align-items: center;
     font-family: var(--inter), sans-serif;
     background-color: rgb(204, 204, 204);
-    width: 100vw;
+    width: 100%;
     
 }
 
@@ -990,9 +990,26 @@ footer {
 }
 
 
-
-
 /* pop-ups */
+
+
+
+/* scrollbar */
+
+ ::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+    background-color: white;
+    position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+
+/* scrollbar */
+
 
 
 /* media queries */
@@ -1163,6 +1180,9 @@ footer {
 
 
      /* ------- estilo -------- */
+        #observacao p {
+        font-size: 13px;
+        }
 
         #img-estilo1 {
             width: calc(780px/2);
